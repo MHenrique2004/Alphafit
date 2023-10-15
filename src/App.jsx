@@ -3,6 +3,8 @@ import React from 'react'
 import Navbar from './components/navbar'
 import "animate.css";
 import Cards from './components/cards';
+import Footer from './components/footer';
+
 
 function App() {
   return (
@@ -42,8 +44,12 @@ function App() {
           <Cards /> 
         </div>
       </div>
+      <div className='footer'>
+        <Footer />
+      </div>
     </>
 
+    
   )
 }
 
