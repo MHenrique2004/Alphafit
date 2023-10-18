@@ -1,0 +1,56 @@
+.comments{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 50px;
+
+}
+
+.containercomentarios{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.contenidoimg{
+
+    margin-left: 16px;
+
+}
+
+.imagemquote{
+
+    width: 80px;
+    
+
+}
+
+.texto{
+
+    width: 50%;
+    padding-left: 60px;
+
+}
+
+.textoparagrafo1{
+
+    font-weight: lighter;
+    font-size: 40px;
+    font-style: normal;
+    font-family: 'Ubuntu', sans-serif;
+    padding-bottom: 10px;
+    line-height: 50px;
+
+}
+
+.textoparagrafo2{
+
+    font-weight: lighter;
+    font-size: 18px;
+    font-style: normal;
+    font-family: 'Ubuntu', sans-serif;
+
+}

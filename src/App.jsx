@@ -4,6 +4,8 @@ import Navbar from './components/navbar'
 import "animate.css";
 import Cards from './components/cards';
 import Footer from './components/footer';
+import Comentarios from './components/comentarios';
+
 
 
 function App() {
@@ -16,10 +18,12 @@ function App() {
             <h1 className="animate__animated animate__fadeIn ">Encontre a felicidade no seu corpo, na academia que te desafia e apoia.</h1>
             <p className="animate__animated animate__fadeIn ">Descubra um ambiente que equilibra desafio e conforto para o seu máximo desempenho.</p>
           </div>
+          <a className="botaoanchor" href="#ancora">Vamos Começar!</a>
         </div>
       </div>
+      
 
-      <div className="Quem-Somos">
+      <div className="Quem-Somos" id="ancora">
         <div className="titulo">
           <h2>O que é a Alphafit?</h2>
         </div>
@@ -41,7 +45,10 @@ function App() {
           <h2>Por que escolher a Alphafit?</h2>
         </div>
         <div className="content">
-          <Cards /> 
+          <Cards />
+        </div>
+        <div className="comentarios">
+          < Comentarios />
         </div>
       </div>
       <div className='footer'>
@@ -49,7 +56,7 @@ function App() {
       </div>
     </>
 
-    
+
   )
 }
 
